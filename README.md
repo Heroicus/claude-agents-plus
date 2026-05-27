@@ -1,6 +1,27 @@
 # Claude Agents Plus
 
+[![GitHub stars](https://img.shields.io/github/stars/Heroicus/claude-agents-plus?style=social)](https://github.com/Heroicus/claude-agents-plus/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Multi-agent orchestration skill for Claude Code. Automatically intercepts complex tasks and orchestrates 1-6 parallel subagents for execution.
+
+## Demo
+
+<!-- Replace with actual GIF recording -->
+```
+User: "Build a full-stack auth system with React frontend, Node.js API, and PostgreSQL"
+
+[ASSESSMENT] Complexity: HIGH (score: 9) - 3 domains detected
+[ORCHESTRATION] Spawning 3 subagents...
+  → Subagent #1: Backend API (implementer)
+  → Subagent #2: Frontend (implementer)  
+  → Subagent #3: Database (implementer)
+
+[REPORT] 3/3 successful
+  ✓ Backend: JWT auth endpoints created
+  ✓ Frontend: Login/Register forms built
+  ✓ Database: User migration applied
+```
 
 ## Features
 
@@ -108,6 +129,10 @@ Score >= 4 triggers orchestration.
 - Claude Code CLI
 - `jq` installed
 - Bash shell
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Heroicus/claude-agents-plus&type=Date)](https://star-history.com/#Heroicus/claude-agents-plus&Date)
 
 ## License
 
